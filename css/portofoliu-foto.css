@@ -1,0 +1,146 @@
+
+
+
+.head-container-foto::after {display:none;}
+
+
+.head-container-foto header {
+    margin: 0;
+    width: 100%;
+ 
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-container-foto .logo {
+  all:initial; 
+  margin-left:5vw;
+  width:20vw;
+}
+
+
+.head-container-foto nav {
+    margin-right: 5vw;
+}
+
+
+
+.grid-container-foto {
+    position:absolute;
+    left:10vw;
+    margin-top: 20vw;
+    
+
+
+}
+
+
+.button {
+    position: fixed;
+    background-color: grey;
+    width: 4vw;
+    padding: 1.5vw 1vw;
+    left:2vw;
+    top:94vh;
+    text-align: center;
+}
+
+.button a{
+    text-decoration: none;
+    font-weight: bold;
+    color:white;
+    font-size: 0.8rem;
+
+}
+
+.button:hover {
+    opacity: 0.7;
+}
+
+
+
+
+ @media only screen and (min-width: 1024px)  {
+
+
+   
+
+   .head-container-foto header nav ul li a { color:black}
+
+   .head-container-foto header nav ul li a:hover {
+        transform: scale(1.2);
+        background-color: inherit;
+        color:black;
+        border-bottom:1px solid black;
+        transition:1s;
+     }
+
+    
+
+.grid-container-foto{ 
+    width:60vw;
+    grid-template-columns: 1fr;
+    left:20vw;
+    
+   
+}
+
+.grid-container-foto .grid-item {
+    margin-bottom: 5vw;
+}
+
+.grid-subitem-foto {
+    background-size: 60vw;
+    width: 60vw;
+    height: 40vw; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin:0;
+    justify-content: center;
+      align-items: center;
+      margin-bottom: 2vw;
+}
+
+    .head-container-foto header {
+        margin: 0;
+        width: 100%;
+    
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .head-container-foto .logo {
+    all:initial; 
+    margin-left:5vw;
+    }
+
+
+    .head-container-foto nav {
+        margin-right: 5vw;
+    }
+
+    .button {
+        position: fixed;
+        background-color: grey;
+        width: 3vw;
+        padding: 1.5vw 1vw;
+        left:85vw;
+        top:90vh;
+        text-align: center;
+    }
+
+    .button a{
+        text-decoration: none;
+        font-weight: bold;
+        color:white;
+    
+    }
+    
+    .button:hover {
+        opacity: 0.7;
+    }
+    
+    
+
+}

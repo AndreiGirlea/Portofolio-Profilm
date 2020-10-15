@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotograf Nunta Iasi</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/portofoliu-foto.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="head-container head-container-foto" >
+        <header>
+            <img src="img/logo-bun.png" alt="logo profilm" class="logo">
+
+            <nav>
+                <a href="#" class="hide-desktop">
+                    <img src="img/ham.svg" alt="toggle menu" class="menu" id="menu">
+                </a>
+
+                <ul class="show-desktop hide-mobile" id="nav">
+                    <li id="exit" class="exit-btn hide desktop">
+                        <img src="img/exit.svg" alt="exit menu">
+                    </li> 
+                    <li> <a href="index.html">Acasa</a></li> 
+                    <li> <a href="portofoliu-foto.html">Portofoliu Foto</a></li> 
+                    <li> <a href="portofoliu-video.html">Portofoliu Video</a></li> 
+                    <li> <a href="Contact.html" class="active-link1">Contact</a></li> 
+
+                </ul>
+            </nav>
+            
+        </header>
+
+    </div>
+
+
+    <div class="container">
+		<div class="contact-box">
+			<div class="left"></div>
+			<div class="right">
+				<h2>Contact Us</h2>
+				<input type="text" class="field" placeholder="Your Name">
+				<input type="email" class="field" placeholder="Your Email">
+				<input type="tel" class="field" placeholder="Phone">
+				<textarea placeholder="Message" class="field"></textarea>
+				<button class="btn">Send</button>
+			</div>
+        </div>
+        <div class="footer-contact">
+
+            <p>You can also contact us at <span>andreigirlea.ro@gmail.com</span>  or at <span>0747945318</span> </p>
+    
+        </div>
+    </div>
+    
+
+    
+
+
+    <script>
+        
+        var menu = document.getElementById('menu');
+        var nav = document.getElementById('nav');
+        var exit = document.getElementById('exit');
+    
+        menu.addEventListener('click', function(e) {
+            nav.classList.toggle('hide-mobile');
+            e.preventDefault();
+        });
+    
+        exit.addEventListener('click', function(e) {
+            nav.classList.add('hide-mobile');
+            e.preventDefault();
+        });
+    
+    </script>
+    
+
+
+
+</body>
+
+
+
+</html>

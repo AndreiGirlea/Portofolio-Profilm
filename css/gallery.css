@@ -1,0 +1,280 @@
+.gallery-container {
+    position: absolute;
+    margin:0;
+    width: 80vw;
+    margin-top: 25vw;
+    margin-left: 10vw;
+}
+
+.gallery-item {
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:block;
+    margin-top: 3vw; 
+    width:80vw;
+    height:55vw; 
+    
+}
+
+.gallery-item1 {
+    background-image: url(../img/g1/fotograf-nunta-iasi\ 01.jpg);
+}
+    
+
+.gallery-item2 {
+    background-image: url(../img/g1/fotograf-nunta-iasi\ 02.jpg);
+    
+}
+
+
+.gallery-item3 {
+    background-image: url(../img/g1/fotograf-nunta-iasi\ 03.jpg);
+   
+}
+
+
+.gallery-item4 {
+    background-image: url(../img/g1/fotograf-nunta-iasi\ 04.jpg);
+    
+}
+
+.gallery-item5 {
+    background-image: url(../img/g1/fotograf-nunta-iasi\ 05.jpg);
+    
+}
+
+
+.gallery-item6 {
+    background-image: url(../img/g1/fotograf-nunta-iasi\ 06.jpg);
+  
+}
+
+
+.gallery-item7 {
+    background-image: url(../img/g1/fotograf-nunta-iasi\ 07.jpg);
+    
+}
+
+
+.gallery-item8 {
+    background-image: url(../img/g1/fotograf-nunta-iasi\ 08.jpg);
+   
+}
+
+
+.gallery-item9 {
+    background-image: url(../img/g1/fotograf-nunta-iasi\ 09.jpg);
+   
+}
+
+
+@media only screen and (min-width: 1024px) {
+
+
+    .gallery-container{
+        width:60vw;
+        margin-left: 20vw;
+    }
+
+
+    .gallery-item {
+    
+       
+        margin-top: 3vw; 
+        width:60vw;
+        height:40vw; 
+        min-width: 816px;
+        min-height: 560px;
+    }
+
+}
+
+/* GALERIE 2*/
+
+.gallery2-item1 {
+    background-image: url(../img/g2/fotograf-nunta-iasi\ 01.jpg);
+    width:60vw;
+    height:80vw; 
+    margin: 0 auto;
+    margin-bottom: 3vw;
+    max-width: 672px;
+    max-height: 1008px;
+}
+
+.gallery2-item2 {
+    background-image: url(../img/g2/fotograf-nunta-iasi\ 02.jpg);
+    width:60vw;
+    height:80vw; 
+    margin: 0 auto;
+    margin-bottom: 3vw;
+    max-width: 672px;
+    max-height: 1008px;
+} 
+
+.gallery2-item3 {
+    background-image: url(../img/g2/fotograf-nunta-iasi\ 03.jpg);
+    width:60vw;
+    height:80vw; 
+    margin: 0 auto;
+    margin-bottom: 3vw;
+    max-width: 672px;
+    max-height: 1008px;
+} 
+
+.gallery2-item4 {
+    background-image: url(../img/g2/fotograf-nunta-iasi\ 04.jpg);
+    width:60vw;
+    height:80vw; 
+    margin: 0 auto;
+    margin-bottom: 3vw;
+    max-width: 672px;
+    max-height: 1008px;
+} 
+
+.gallery2-item5 {
+    background-image: url(../img/g2/fotograf-nunta-iasi\ 05.jpg);
+    width:60vw;
+    height:80vw; 
+    margin: 0 auto;
+    margin-bottom: 3vw;
+    max-width: 672px;
+    max-height: 1008px;
+} 
+
+.gallery2-item6 {
+    background-image: url(../img/g2/fotograf-nunta-iasi\ 06.jpg);
+}
+
+.gallery2-item7 {
+    background-image: url(../img/g2/fotograf-nunta-iasi\ 07.jpg);
+}
+
+.gallery2-item8 {
+    background-image: url(../img/g2/fotograf-nunta-iasi\ 08.jpg);
+}
+
+.gallery2-item9 {
+    background-image: url(../img/g2/fotograf-nunta-iasi\ 09.jpg);
+    width:60vw;
+    height:80vw; 
+    margin: 0 auto;
+    margin-bottom: 3vw;
+    margin-top: 3vw;
+    max-width: 672px;
+    max-height: 1008px;
+} 
+
+.gallery2-item10 {
+    background-image: url(../img/g2/fotograf-nunta-iasi\ 08.jpg);
+}
+
+
+/* GALERIE 3*/
+
+.gallery3-item1 {
+    background-image: url(../img/adina-andrei/fotograf-nunta-iasi\ 01.jpg);
+}
+
+.gallery3-item2 {
+    background-image: url(../img/adina-andrei/fotograf-nunta-iasi\ 02.jpg);
+}
+
+.gallery3-item3 {
+    background-image: url(../img/adina-andrei/fotograf-nunta-iasi\ 03.jpg);
+}
+
+.gallery3-item4 {
+    background-image: url(../img/adina-andrei/fotograf-nunta-iasi\ 04.jpg);
+}
+
+.gallery3-item5 {
+    background-image: url(../img/adina-andrei/fotograf-nunta-iasi\ 05.jpg);
+}
+
+.gallery3-item6 {
+    background-image: url(../img/adina-andrei/fotograf-nunta-iasi\ 06.jpg);
+}
+
+
+.gallery3-item7 {
+    background-image: url(../img/adina-andrei/fotograf-nunta-iasi\ 07.jpg);
+    width:60vw;
+    height:80vw; 
+    margin: 0 auto;
+    margin-bottom: 3vw;
+    margin-top: 3vw;
+    max-width: 672px;
+    max-height: 1008px;
+} 
+
+.gallery3-item8 {
+    background-image: url(../img/adina-andrei/fotograf-nunta-iasi\ 08.jpg);
+}
+
+.gallery3-item9 {
+    background-image: url(../img/adina-andrei/fotograf-nunta-iasi\ 09.jpg);
+}
+
+.gallery3-item10 {
+    background-image: url(../img/adina-andrei/fotograf-nunta-iasi\ 10.jpg);
+    width:60vw;
+    height:80vw; 
+    margin: 0 auto;
+    margin-bottom: 3vw;
+    margin-top: 3vw;
+    max-width: 672px;
+    max-height: 1008px;
+} 
+
+.gallery3-item11 {
+    background-image: url(../img/adina-andrei/fotograf-nunta-iasi\ 11.jpg);
+}
+
+.gallery3-item12 {
+    background-image: url(../img/adina-andrei/fotograf-nunta-iasi\ 12.jpg);
+    width:60vw;
+    height:80vw; 
+    margin: 0 auto;
+    margin-bottom: 3vw;
+    margin-top: 3vw;
+    max-width: 672px;
+    max-height: 1008px;
+} 
+
+.gallery3-item12 {
+    background-image: url(../img/adina-andrei/fotograf-nunta-iasi\ 12.jpg);
+}
+
+.gallery3-item13 {
+    background-image: url(../img/adina-andrei/fotograf-nunta-iasi\ 13.jpg);
+}
+
+.gallery3-item14 {
+    background-image: url(../img/adina-andrei/fotograf-nunta-iasi\ 14.jpg);
+}
+
+.gallery3-item15 {
+    background-image: url(../img/adina-andrei/fotograf-nunta-iasi\ 15.jpg);
+}
+
+.gallery3-item16 {
+    background-image: url(../img/adina-andrei/fotograf-nunta-iasi\ 16.jpg);
+}
+
+.gallery3-item17 {
+    background-image: url(../img/adina-andrei/fotograf-nunta-iasi\ 17.jpg);
+}
+
+.gallery3-item18 {
+    background-image: url(../img/adina-andrei/fotograf-nunta-iasi\ 18.jpg);
+}
+
+.gallery3-item19 {
+    background-image: url(../img/adina-andrei/fotograf-nunta-iasi\ 19.jpg);
+}
+
+.gallery3-item20 {
+    background-image: url(../img/adina-andrei/fotograf-nunta-iasi\ 20.jpg);
+}
